@@ -1,8 +1,11 @@
 # NewBankAccountApplication
 
 
-### Input and Outputs:
-'''
+### Example:
+
+#### Sample Input & Output:
+
+```
 Open a savings account
 Open a checkings account
 Open a checkings account
@@ -154,4 +157,4 @@ Your Checking Account Feautres:
 DebitCard Number: 2147483647
 DebitCard PIN: 2113
 
-'''
+```
