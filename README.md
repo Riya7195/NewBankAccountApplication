@@ -1,4 +1,17 @@
-# NewBankAccountApplication
+## NewBankAccountApplication
+
+This application uses an API to receive information fron developers end, read data from a file and store in an appropriate data strucure and generate random numbers and work with string API.
+
+## This Application performs the following tasks:
+
+- Read a csv file of names, social security numbers, account type and initial deposit.
+- Use a proper data structure to hold these accounts.
+- Both Savings and Checking accounts share the properties:( deposit,withdraw, transfer, showinfo). Here an 11 digit account number (generated with the following process: 1 or 2 depending on savings or checkings, last two digits od ssn, unique 5-digit number and random 3 digit number)
+- savings account holders are given a safety box, identified by 3 digit no. and accessed with a 4 digit code.
+- checking account holders are assigned with a debit card of 12 digit no. and a 4 digit pin.
+- Both accounts will use an interface that determines the base interest, Savings account will use 0.25 points less than the base rate.Checkings account will use 15% of the base price.
+- The showInfo method should reveal relevalent account info as well as information specific to the checking and savings account.
+
 
 
 ### Example:
